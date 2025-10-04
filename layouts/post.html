@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <article>
+    <h2>{{ title }}</h2>
+    <p><small>{{ date }}</small></p>
+    {{ body }}
+    {% if affiliate %}
+      <p><a href="{{ affiliate }}" target="_blank">Check this out</a></p>
+    {% endif %}
+  </article>
+{% endblock %}
