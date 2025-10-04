@@ -1,0 +1,10 @@
+{
+  "name": "automated-magazine",
+  "version": "1.0.0",
+  "scripts": {
+    "fetch": "node fetch-feeds.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.12.0"
+  }
+}
